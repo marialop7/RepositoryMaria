@@ -1,0 +1,7 @@
+Algoritmo SoyMaria
+	// Este es mi primer programa
+	Escribir "Hola, ¿cómo te llamas?"
+	Leer Nombre
+	Escribir "Encatado de conocerte, " nombre
+FinAlgoritmo
+
