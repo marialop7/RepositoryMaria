@@ -1,3 +1,3 @@
 # RepositoryMaria
 
-Bienvenidos a mi repositorio. Aquí almacenaré todos las tareas con pseudocódigo que haga. 
+Bienvenidos a mi repositorio. Aquí guardaré  todas las tareas  con pseudocódigo que haga. 
