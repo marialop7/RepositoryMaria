@@ -14,9 +14,9 @@ Funcion rsdo <- rellenarDerecha(frase,tam)
 FinFuncion
 
 Funcion rsdo = generarCadena(car,tam)
-	car<-"*"
+	rsdo<-""
 	Para i<-1 Hasta tam Hacer
-		rsdo= Concatenar(car,frase)
+		rsdo= Concatenar(rsdo,car)
 	FinPara
 FinFuncion
 
