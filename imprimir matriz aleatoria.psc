@@ -4,9 +4,6 @@ Algoritmo sin_titulo
 	Escribir "¿Cuántas columnas tiene la matriz?"
 	leer NumC
 	Dimension notas(numFilas,numC)
-	notas(1,1)= 1
-	notas(2,2)= 2
-	notas(3,3)= 3
 	ImprimirMatriz(notas,numFilas,numC)
 	
 FinAlgoritmo
@@ -14,10 +11,10 @@ FinAlgoritmo
 Funcion ImprimirMatriz(m,numFilas,numC)
 	
 	para i=1 hasta numFilas
-		para j=1 hasta numC
+		para j=1 hasta numC Hacer
+			m(i,j)<-Aleatorio(1,100)
 			Escribir m(i,j) " " Sin Saltar
 		FinPara
 		Escribir ""
 	FinPara
-	FinFuncion
-	
+FinFuncion
